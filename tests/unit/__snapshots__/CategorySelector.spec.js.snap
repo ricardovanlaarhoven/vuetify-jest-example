@@ -1,0 +1,507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalSearch.vue matches ui 1`] = `
+<div class="category-selector">
+  <div class="v-input theme--light v-text-field v-select v-autocomplete">
+    <div class="v-input__control">
+      <div role="combobox"
+           aria-haspopup="listbox"
+           aria-expanded="false"
+           aria-owns="list-5"
+           class="v-input__slot"
+      >
+        <div class="v-select__slot">
+          <label for="input-5"
+                 class="v-label theme--light"
+                 style="left: 0px; position: absolute;"
+          >
+            Zichtbaarheid
+          </label>
+          <input id="input-5"
+                 type="text"
+                 autocomplete="off"
+          >
+          <div class="v-input__append-inner">
+            <div class="v-input__icon v-input__icon--append">
+              <i aria-hidden="true"
+                 class="v-icon notranslate mdi mdi-menu-down theme--light"
+              >
+              </i>
+            </div>
+          </div>
+          <input type="hidden">
+        </div>
+        <div class="v-menu">
+          <div class="v-menu__content theme--light v-autocomplete__content"
+               style="max-height: 304px; min-width: 0px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;"
+          >
+          </div>
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages theme--light">
+          <span name="message-transition"
+                tag="div"
+                class="v-messages__wrapper"
+          >
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GlobalSearch.vue matches ui when a headcategory 1`] = `
+<div class="category-selector">
+  <div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted v-select v-autocomplete">
+    <div class="v-input__control">
+      <div role="combobox"
+           aria-haspopup="listbox"
+           aria-expanded="false"
+           aria-owns="list-16"
+           class="v-input__slot"
+      >
+        <div class="v-select__slot">
+          <label for="input-16"
+                 class="v-label v-label--active theme--light"
+                 style="left: 0px; position: absolute;"
+          >
+            Zichtbaarheid
+          </label>
+          <input id="input-16"
+                 type="text"
+                 autocomplete="off"
+          >
+          <div class="v-input__append-inner">
+            <div class="v-input__icon v-input__icon--append">
+              <i aria-hidden="true"
+                 class="v-icon notranslate mdi mdi-menu-down theme--light"
+              >
+              </i>
+            </div>
+          </div>
+          <input type="hidden"
+                 value="4"
+          >
+        </div>
+        <div class="v-menu">
+          <div class="v-menu__content theme--light v-autocomplete__content"
+               style="max-height: 304px; min-width: 0px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;"
+          >
+          </div>
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages theme--light">
+          <span name="message-transition"
+                tag="div"
+                class="v-messages__wrapper"
+          >
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted v-select v-autocomplete">
+    <div class="v-input__control">
+      <div role="combobox"
+           aria-haspopup="listbox"
+           aria-expanded="false"
+           aria-owns="list-22"
+           class="v-input__slot"
+      >
+        <div class="v-select__slot">
+          <label for="input-22"
+                 class="v-label v-label--active theme--light"
+                 style="left: 0px; position: absolute;"
+          >
+            Hoofdcategorie
+          </label>
+          <input id="input-22"
+                 type="text"
+                 autocomplete="off"
+          >
+          <div class="v-input__append-inner">
+            <div class="v-input__icon v-input__icon--append">
+              <i aria-hidden="true"
+                 class="v-icon notranslate mdi mdi-menu-down theme--light"
+              >
+              </i>
+            </div>
+          </div>
+          <input type="hidden"
+                 value="9"
+          >
+        </div>
+        <div class="v-menu">
+          <div class="v-menu__content theme--light v-autocomplete__content"
+               style="max-height: 304px; min-width: 0px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;"
+          >
+          </div>
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages theme--light">
+          <span name="message-transition"
+                tag="div"
+                class="v-messages__wrapper"
+          >
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="v-input theme--light v-text-field v-select v-autocomplete">
+    <div class="v-input__control">
+      <div role="combobox"
+           aria-haspopup="listbox"
+           aria-expanded="false"
+           aria-owns="list-28"
+           class="v-input__slot"
+      >
+        <div class="v-select__slot">
+          <label for="input-28"
+                 class="v-label theme--light"
+                 style="left: 0px; position: absolute;"
+          >
+            Subcategorie
+          </label>
+          <input id="input-28"
+                 type="text"
+                 autocomplete="off"
+          >
+          <div class="v-input__append-inner">
+            <div class="v-input__icon v-input__icon--append">
+              <i aria-hidden="true"
+                 class="v-icon notranslate mdi mdi-menu-down theme--light"
+              >
+              </i>
+            </div>
+          </div>
+          <input type="hidden">
+        </div>
+        <div class="v-menu">
+          <div class="v-menu__content theme--light v-autocomplete__content"
+               style="max-height: 304px; min-width: 0px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;"
+          >
+          </div>
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages theme--light">
+          <span name="message-transition"
+                tag="div"
+                class="v-messages__wrapper"
+          >
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GlobalSearch.vue matches ui when a subcategory is set 1`] = `
+<div class="category-selector">
+  <div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted v-select v-autocomplete">
+    <div class="v-input__control">
+      <div role="combobox"
+           aria-haspopup="listbox"
+           aria-expanded="false"
+           aria-owns="list-39"
+           class="v-input__slot"
+      >
+        <div class="v-select__slot">
+          <label for="input-39"
+                 class="v-label v-label--active theme--light"
+                 style="left: 0px; position: absolute;"
+          >
+            Zichtbaarheid
+          </label>
+          <input id="input-39"
+                 type="text"
+                 autocomplete="off"
+          >
+          <div class="v-input__append-inner">
+            <div class="v-input__icon v-input__icon--append">
+              <i aria-hidden="true"
+                 class="v-icon notranslate mdi mdi-menu-down theme--light"
+              >
+              </i>
+            </div>
+          </div>
+          <input type="hidden"
+                 value="4"
+          >
+        </div>
+        <div class="v-menu">
+          <div class="v-menu__content theme--light v-autocomplete__content"
+               style="max-height: 304px; min-width: 0px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;"
+          >
+          </div>
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages theme--light">
+          <span name="message-transition"
+                tag="div"
+                class="v-messages__wrapper"
+          >
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-select v-autocomplete">
+    <div class="v-input__control">
+      <div role="combobox"
+           aria-haspopup="listbox"
+           aria-expanded="false"
+           aria-owns="list-51"
+           class="v-input__slot"
+      >
+        <div class="v-select__slot">
+          <label for="input-51"
+                 class="v-label v-label--active theme--light"
+                 style="left: 0px; position: absolute;"
+          >
+            Hoofdcategorie
+          </label>
+          <input id="input-51"
+                 type="text"
+                 autocomplete="off"
+          >
+          <div class="v-input__append-inner">
+            <div class="v-input__icon v-input__icon--append">
+              <i aria-hidden="true"
+                 class="v-icon notranslate mdi mdi-menu-down theme--light"
+              >
+              </i>
+            </div>
+          </div>
+          <input type="hidden"
+                 value="9"
+          >
+        </div>
+        <div class="v-menu">
+          <div class="v-menu__content theme--light v-autocomplete__content"
+               style="max-height: 304px; min-width: 0px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;"
+          >
+          </div>
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages theme--light">
+          <span name="message-transition"
+                tag="div"
+                class="v-messages__wrapper"
+          >
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted v-select v-autocomplete">
+    <div class="v-input__control">
+      <div role="combobox"
+           aria-haspopup="listbox"
+           aria-expanded="false"
+           aria-owns="list-45"
+           class="v-input__slot"
+      >
+        <div class="v-select__slot">
+          <label for="input-45"
+                 class="v-label v-label--active theme--light"
+                 style="left: 0px; position: absolute;"
+          >
+            Subcategorie
+          </label>
+          <input id="input-45"
+                 type="text"
+                 autocomplete="off"
+          >
+          <div class="v-input__append-inner">
+            <div class="v-input__icon v-input__icon--append">
+              <i aria-hidden="true"
+                 class="v-icon notranslate mdi mdi-menu-down theme--light"
+              >
+              </i>
+            </div>
+          </div>
+          <input type="hidden"
+                 value="17"
+          >
+        </div>
+        <div class="v-menu">
+          <div class="v-menu__content theme--light v-autocomplete__content"
+               style="max-height: 304px; min-width: 0px; max-width: auto; top: 12px; left: 0px; transform-origin: top left; z-index: 0; display: none;"
+          >
+          </div>
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages theme--light">
+          <span name="message-transition"
+                tag="div"
+                class="v-messages__wrapper"
+          >
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GlobalSearch.vue matches ui when using shallowMount 1`] = `
+<div class="category-selector">
+  <vautocomplete-stub errorcount="1"
+                      errormessages
+                      messages
+                      rules="function (v) { return !!v || 'Zichtbaarheid is een verplicht veld'; }"
+                      successmessages
+                      appendicon="$dropdown"
+                      backgroundcolor
+                      label="Zichtbaarheid"
+                      loaderheight="2"
+                      clearicon="$clear"
+                      type="text"
+                      valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+                      nodatatext="$vuetify.noDataText"
+                      items="[object Object],[object Object]"
+                      itemcolor="primary"
+                      itemdisabled="disabled"
+                      itemtext="name"
+                      itemvalue="id"
+                      menuprops="[object Object]"
+                      allowoverflow="true"
+                      filter="function _default(item, queryText, itemText) {
+        return itemText.toLocaleLowerCase().indexOf(queryText.toLocaleLowerCase()) > -1;
+      }"
+                      value="4"
+  >
+  </vautocomplete-stub>
+  <vautocomplete-stub errorcount="1"
+                      errormessages
+                      messages
+                      rules="function (v) { return !!v || 'Hoofdcategorie is een verplicht veld'; }"
+                      successmessages
+                      value="9"
+                      appendicon="$dropdown"
+                      backgroundcolor
+                      label="Hoofdcategorie"
+                      loaderheight="2"
+                      clearicon="$clear"
+                      type="text"
+                      valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+                      nodatatext="$vuetify.noDataText"
+                      items="[object Object],[object Object]"
+                      itemcolor="primary"
+                      itemdisabled="disabled"
+                      itemtext="name"
+                      itemvalue="id"
+                      menuprops="[object Object]"
+                      allowoverflow="true"
+                      filter="function _default(item, queryText, itemText) {
+        return itemText.toLocaleLowerCase().indexOf(queryText.toLocaleLowerCase()) > -1;
+      }"
+  >
+  </vautocomplete-stub>
+  <vautocomplete-stub errorcount="1"
+                      errormessages
+                      messages
+                      rules="function (v) { return !!v || 'Subcategorie is een verplicht veld'; }"
+                      successmessages
+                      value="17"
+                      appendicon="$dropdown"
+                      backgroundcolor
+                      label="Subcategorie"
+                      loaderheight="2"
+                      clearicon="$clear"
+                      type="text"
+                      valuecomparator="function deepEqual(a, b) {
+  if (a === b) return true;
+
+  if (a instanceof Date &amp;&amp; b instanceof Date) {
+    // If the values are Date, they were convert to timestamp with getTime and compare it
+    if (a.getTime() !== b.getTime()) return false;
+  }
+
+  if (a !== Object(a) || b !== Object(b)) {
+    // If the values aren't objects, they were already checked for equality
+    return false;
+  }
+
+  var props = Object.keys(a);
+
+  if (props.length !== Object.keys(b).length) {
+    // Different number of props, don't bother to check
+    return false;
+  }
+
+  return props.every(function (p) {
+    return deepEqual(a[p], b[p]);
+  });
+}"
+                      nodatatext="$vuetify.noDataText"
+                      items="[object Object],[object Object],[object Object]"
+                      itemcolor="primary"
+                      itemdisabled="disabled"
+                      itemtext="name"
+                      itemvalue="id"
+                      menuprops="[object Object]"
+                      allowoverflow="true"
+                      filter="function _default(item, queryText, itemText) {
+        return itemText.toLocaleLowerCase().indexOf(queryText.toLocaleLowerCase()) > -1;
+      }"
+  >
+  </vautocomplete-stub>
+</div>
+`;
