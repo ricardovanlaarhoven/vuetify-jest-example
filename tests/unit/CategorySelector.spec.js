@@ -55,16 +55,16 @@ describe('GlobalSearch.vue', () => {
         expect(wrapper.html()).toMatchSnapshot();
     });
 
-    it('matches ui when using shallowMount', async () => {
-        const wrapper = shallowMount(CategorySelector, {
-            localVue,
-            vuetify,
-            store,
-            propsData: {
-                value: 17,
-            },
-        });
-        await flushPromises();
-        expect(wrapper.html()).toMatchSnapshot();
-    });
+    // it('matches ui when using shallowMount', async () => {
+    //     const wrapper = shallowMount(CategorySelector, {
+    //         localVue,
+    //         vuetify,
+    //         store,
+    //         propsData: {
+    //             value: 17,
+    //         },
+    //     });
+    //     await flushPromises();
+    //     expect(wrapper.html()).toMatchSnapshot();
+    // });
 });

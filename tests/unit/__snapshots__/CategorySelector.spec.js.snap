@@ -40,11 +40,8 @@ exports[`GlobalSearch.vue matches ui 1`] = `
       </div>
       <div class="v-text-field__details">
         <div class="v-messages theme--light">
-          <span name="message-transition"
-                tag="div"
-                class="v-messages__wrapper"
-          >
-          </span>
+          <div class="v-messages__wrapper">
+          </div>
         </div>
       </div>
     </div>
@@ -59,17 +56,17 @@ exports[`GlobalSearch.vue matches ui when a headcategory 1`] = `
       <div role="combobox"
            aria-haspopup="listbox"
            aria-expanded="false"
-           aria-owns="list-16"
+           aria-owns="list-24"
            class="v-input__slot"
       >
         <div class="v-select__slot">
-          <label for="input-16"
+          <label for="input-24"
                  class="v-label v-label--active theme--light"
                  style="left: 0px; position: absolute;"
           >
             Zichtbaarheid
           </label>
-          <input id="input-16"
+          <input id="input-24"
                  type="text"
                  autocomplete="off"
           >
@@ -94,11 +91,8 @@ exports[`GlobalSearch.vue matches ui when a headcategory 1`] = `
       </div>
       <div class="v-text-field__details">
         <div class="v-messages theme--light">
-          <span name="message-transition"
-                tag="div"
-                class="v-messages__wrapper"
-          >
-          </span>
+          <div class="v-messages__wrapper">
+          </div>
         </div>
       </div>
     </div>
@@ -108,17 +102,17 @@ exports[`GlobalSearch.vue matches ui when a headcategory 1`] = `
       <div role="combobox"
            aria-haspopup="listbox"
            aria-expanded="false"
-           aria-owns="list-22"
+           aria-owns="list-30"
            class="v-input__slot"
       >
         <div class="v-select__slot">
-          <label for="input-22"
+          <label for="input-30"
                  class="v-label v-label--active theme--light"
                  style="left: 0px; position: absolute;"
           >
             Hoofdcategorie
           </label>
-          <input id="input-22"
+          <input id="input-30"
                  type="text"
                  autocomplete="off"
           >
@@ -143,31 +137,28 @@ exports[`GlobalSearch.vue matches ui when a headcategory 1`] = `
       </div>
       <div class="v-text-field__details">
         <div class="v-messages theme--light">
-          <span name="message-transition"
-                tag="div"
-                class="v-messages__wrapper"
-          >
-          </span>
+          <div class="v-messages__wrapper">
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="v-input theme--light v-text-field v-select v-autocomplete">
+  <div class="v-input theme--light v-text-field v-text-field--is-booted v-select v-autocomplete">
     <div class="v-input__control">
       <div role="combobox"
            aria-haspopup="listbox"
            aria-expanded="false"
-           aria-owns="list-28"
+           aria-owns="list-36"
            class="v-input__slot"
       >
         <div class="v-select__slot">
-          <label for="input-28"
+          <label for="input-36"
                  class="v-label theme--light"
                  style="left: 0px; position: absolute;"
           >
             Subcategorie
           </label>
-          <input id="input-28"
+          <input id="input-36"
                  type="text"
                  autocomplete="off"
           >
@@ -190,11 +181,8 @@ exports[`GlobalSearch.vue matches ui when a headcategory 1`] = `
       </div>
       <div class="v-text-field__details">
         <div class="v-messages theme--light">
-          <span name="message-transition"
-                tag="div"
-                class="v-messages__wrapper"
-          >
-          </span>
+          <div class="v-messages__wrapper">
+          </div>
         </div>
       </div>
     </div>
@@ -209,17 +197,17 @@ exports[`GlobalSearch.vue matches ui when a subcategory is set 1`] = `
       <div role="combobox"
            aria-haspopup="listbox"
            aria-expanded="false"
-           aria-owns="list-39"
+           aria-owns="list-79"
            class="v-input__slot"
       >
         <div class="v-select__slot">
-          <label for="input-39"
+          <label for="input-79"
                  class="v-label v-label--active theme--light"
                  style="left: 0px; position: absolute;"
           >
             Zichtbaarheid
           </label>
-          <input id="input-39"
+          <input id="input-79"
                  type="text"
                  autocomplete="off"
           >
@@ -244,31 +232,28 @@ exports[`GlobalSearch.vue matches ui when a subcategory is set 1`] = `
       </div>
       <div class="v-text-field__details">
         <div class="v-messages theme--light">
-          <span name="message-transition"
-                tag="div"
-                class="v-messages__wrapper"
-          >
-          </span>
+          <div class="v-messages__wrapper">
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-select v-autocomplete">
+  <div class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field v-text-field--is-booted v-select v-autocomplete">
     <div class="v-input__control">
       <div role="combobox"
            aria-haspopup="listbox"
            aria-expanded="false"
-           aria-owns="list-51"
+           aria-owns="list-85"
            class="v-input__slot"
       >
         <div class="v-select__slot">
-          <label for="input-51"
+          <label for="input-85"
                  class="v-label v-label--active theme--light"
                  style="left: 0px; position: absolute;"
           >
             Hoofdcategorie
           </label>
-          <input id="input-51"
+          <input id="input-85"
                  type="text"
                  autocomplete="off"
           >
@@ -293,11 +278,8 @@ exports[`GlobalSearch.vue matches ui when a subcategory is set 1`] = `
       </div>
       <div class="v-text-field__details">
         <div class="v-messages theme--light">
-          <span name="message-transition"
-                tag="div"
-                class="v-messages__wrapper"
-          >
-          </span>
+          <div class="v-messages__wrapper">
+          </div>
         </div>
       </div>
     </div>
@@ -307,17 +289,17 @@ exports[`GlobalSearch.vue matches ui when a subcategory is set 1`] = `
       <div role="combobox"
            aria-haspopup="listbox"
            aria-expanded="false"
-           aria-owns="list-45"
+           aria-owns="list-91"
            class="v-input__slot"
       >
         <div class="v-select__slot">
-          <label for="input-45"
+          <label for="input-91"
                  class="v-label v-label--active theme--light"
                  style="left: 0px; position: absolute;"
           >
             Subcategorie
           </label>
-          <input id="input-45"
+          <input id="input-91"
                  type="text"
                  autocomplete="off"
           >
@@ -342,11 +324,8 @@ exports[`GlobalSearch.vue matches ui when a subcategory is set 1`] = `
       </div>
       <div class="v-text-field__details">
         <div class="v-messages theme--light">
-          <span name="message-transition"
-                tag="div"
-                class="v-messages__wrapper"
-          >
-          </span>
+          <div class="v-messages__wrapper">
+          </div>
         </div>
       </div>
     </div>
